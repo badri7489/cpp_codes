@@ -3,9 +3,9 @@
 using namespace std;
 
 int func1(int, int);
-void func2(int, int, int);
+void func2(int *, int, int);
 
-void func2(int x, int y, int z)
+void func2(int &x, int y, int z)
 {
     x += y + z;
 }
