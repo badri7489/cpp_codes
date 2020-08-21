@@ -15,7 +15,7 @@ int main()
     // If you don't seed the random number generator you will get the same sequence of random numbers on every run.
 
     cout << "RAND_MAX on my system is: " << RAND_MAX << endl;
-    // srand(time(nullptr));
+    srand(time(nullptr));
 
     for (size_t i{1}; i <= count; i++)
     {
