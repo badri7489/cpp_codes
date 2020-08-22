@@ -77,7 +77,7 @@ int main()
     // cout << "\nFirst name - " << (*vector_ptr).at(0) << endl;
 
     // cout << "All names - ";
-    // for (auto i : names)
+    // for (auto i : (*vector_ptr))
     //     cout << i << " ";
     // cout << endl;
 
