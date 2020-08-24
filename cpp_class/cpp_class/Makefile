@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ class - Debug ]----------"
-	@cd "class" && "$(MAKE)" -f  "class.mk"
+	@echo "----------Building project:[ constructor_destructor - Debug ]----------"
+	@cd "C:\Users\user\Desktop\College\Cpp_codes\cpp_class\constructor_destructor" && "$(MAKE)" -f  "constructor_destructor.mk"
 clean:
-	@echo "----------Cleaning project:[ class - Debug ]----------"
-	@cd "class" && "$(MAKE)" -f  "class.mk" clean
+	@echo "----------Cleaning project:[ constructor_destructor - Debug ]----------"
+	@cd "C:\Users\user\Desktop\College\Cpp_codes\cpp_class\constructor_destructor" && "$(MAKE)" -f  "constructor_destructor.mk" clean
