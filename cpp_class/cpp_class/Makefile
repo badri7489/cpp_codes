@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ ShallowCopy - Debug ]----------"
-	@cd "C:\Users\user\Desktop\College\Cpp_codes\cpp_class\ShallowCopy" && "$(MAKE)" -f  "ShallowCopy.mk"
+	@echo "----------Building project:[ DeepCopy - Debug ]----------"
+	@cd "C:\Users\user\Desktop\College\Cpp_codes\cpp_class\DeepCopy" && "$(MAKE)" -f  "DeepCopy.mk"
 clean:
-	@echo "----------Cleaning project:[ ShallowCopy - Debug ]----------"
-	@cd "C:\Users\user\Desktop\College\Cpp_codes\cpp_class\ShallowCopy" && "$(MAKE)" -f  "ShallowCopy.mk" clean
+	@echo "----------Cleaning project:[ DeepCopy - Debug ]----------"
+	@cd "C:\Users\user\Desktop\College\Cpp_codes\cpp_class\DeepCopy" && "$(MAKE)" -f  "DeepCopy.mk" clean
