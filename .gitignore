@@ -1,2 +1,9 @@
 **.exe
+**.project
+**.mk
+/cpp_class/cpp_class/.codelite
+/cpp_class/cpp_class/build-Debug
+**.workspace
+/cpp_class/cpp_class/Makefile
 /.vscode
+**.txt
