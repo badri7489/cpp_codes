@@ -1,1 +1,0 @@
-../build-Debug/class/Account.cpp.o ../build-Debug/class/main.cpp.o   
