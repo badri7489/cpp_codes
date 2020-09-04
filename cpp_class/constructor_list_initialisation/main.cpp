@@ -24,16 +24,18 @@ public:
 	Player(string name_val, int health_val, int val);
 };
 
-Player::Player()
-	:name{"None"}, health{0}, xp{0}{
+Player::Player() : name{"None"}, health{0}, xp{0}
+{
 }
 
 Player::Player(string name_val)
-	:name{name_val}, health{0}, xp{0}{
+	: name{name_val}, health{0}, xp{0}
+{
 }
 
 Player::Player(string name_val, int health_val, int val)
-	:name{name_val}, health{health_val}, xp{val}{
+	: name{name_val}, health{health_val}, xp{val}
+{
 }
 
 int main()
